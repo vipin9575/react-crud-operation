@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Dohn",
+      "username": "johnd",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "website": "johndoe.com"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "username": "janes",
+      "email": "jane.smith@example.com",
+      "phone": "+9876543210",
+      "website": "janesmith.org"
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "username": "alicej",
+      "email": "alice.johnson@example.com",
+      "phone": "+1122334455",
+      "website": "alicejohnson.io"
+    },
+    {
+      "id": "4",
+      "name": "Bob Brown",
+      "username": "bobb",
+      "email": "bob.brown@example.com",
+      "phone": "+5566778899",
+      "website": "bobbrown.net"
+    },
+    {
+      "id": "5",
+      "name": "Charlie Davis",
+      "username": "charlied",
+      "email": "charlie.davis@example.com",
+      "phone": "+4433221100",
+      "website": "charliedavis.dev"
+    },
+    {
+      "id": "6",
+      "name": "Emma Wilson",
+      "username": "emmaw",
+      "email": "emma.wilson@example.com",
+      "phone": "+9988776655",
+      "website": "emmawilson.info"
+    },
+    {
+      "id": "7",
+      "name": "George Hill",
+      "username": "georgeh",
+      "email": "george.hill@example.com",
+      "phone": "+6677889900",
+      "website": "georgehill.biz"
+    },
+    {
+      "id": "8",
+      "name": "Sophia Martin",
+      "username": "sophiam",
+      "email": "sophia.martin@example.com",
+      "phone": "+3344556677",
+      "website": "sophiamartin.co"
+    },
+    {
+      "id": "9",
+      "name": "Henry Clark",
+      "username": "henryc",
+      "email": "henry.clark@example.com",
+      "phone": "+2211334455",
+      "website": "henryclark.com"
+    },
+    {
+      "id": "10",
+      "name": "Maxwell",
+      "email": "max@gmail.com",
+      "phone": "9876543233"
+    },
+    {
+      "id": "11",
+      "name": "Sanju Samson",
+      "email": "sanju@gmail.com",
+      "phone": "1234567866"
+    }
+  ]
+}
