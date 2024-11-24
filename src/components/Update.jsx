@@ -5,7 +5,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 export const Update = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-//   const [data, setData] = useState([]);
+  //   const [data, setData] = useState([]);
   const [values, setValues] = useState({
     name: "",
     email: "",
@@ -14,7 +14,7 @@ export const Update = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/users/${id}`)
+      .get(`https://6742fc2ab7464b1c2a633c6d.mockapi.io/users/${id}`)
       .then((res) => {
         setValues(res.data);
       })
@@ -26,7 +26,7 @@ export const Update = () => {
   const handleUpdate = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:3000/users/${id}`, values)
+      .put(`https://6742fc2ab7464b1c2a633c6d.mockapi.io/users/${id}`, values)
       .then((res) => {
         navigate("/");
       })

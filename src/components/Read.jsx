@@ -8,7 +8,7 @@ export const Read = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/users/${id}`)
+      .get(`https://6742fc2ab7464b1c2a633c6d.mockapi.io/users/${id}`)
       .then((res) => {
         setData(res.data);
       })

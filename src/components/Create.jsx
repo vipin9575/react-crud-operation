@@ -14,7 +14,7 @@ export const Create = () => {
     e.preventDefault();
     // Fetch the list of users to get the last ID
     axios
-      .get("http://localhost:3000/users")
+      .get("https://6742fc2ab7464b1c2a633c6d.mockapi.io/users")
       .then((response) => {
         const users = response.data;
         const lastUser = users[users.length - 1];
@@ -27,7 +27,7 @@ export const Create = () => {
 
         // Post the new user data
         axios
-          .post("http://localhost:3000/users", newUser)
+          .post("https://6742fc2ab7464b1c2a633c6d.mockapi.io/users", newUser)
           .then((res) => {
             navigate("/"); // Navigate back to the home page after submission
           })
